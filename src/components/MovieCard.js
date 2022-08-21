@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import {AiFillStar} from 'react-icons/ai';
+
 const MovieCard = ({movie: {Title, Year, Poster, imdbID}}) => {
   return (
     // <Link to={`/${imdbID}`}>
